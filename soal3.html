@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>soal 3</title>
+  </head>
+  <body>
+    <!-- table>caption{KOMPOSISI PEGAWAI DI PT SUKA MAJU}+(tr>th*4)+(tr>th*7)+((tr>th+td*8)*4)+(tr>th+td*8) -->
+    <table
+      style="
+        border-style: solid;
+        border-collapse: collapse;
+        background-color: white;
+      "
+    >
+      <caption>
+        KOMPOSISI PEGAWAI DI PT SUKA MAJU
+      </caption>
+      <colgroup>
+        <col
+          span="2"
+          style="border: 2px solid black; background-color: cornflowerblue"
+        />
+        <col span="7" style="background-color: gray" />
+      </colgroup>
+      <thead style="background-color: aqua; border: 2px solid black">
+        <tr>
+          <th rowspan="2" scope="colgroup">No</th>
+          <th rowspan="2" scope="colgroup">Bagian</th>
+          <th colspan="7" scope="colgroup">Tingkat Pendidikan</th>
+          <th rowspan="2" scope="col">jml</th>
+        </tr>
+        <tr>
+          <th scope="col">S3</th>
+          <th scope="col">S2</th>
+          <th scope="col">S1</th>
+          <th scope="col">SMA</th>
+          <th scope="col">SMK</th>
+          <th scope="col">SMP</th>
+          <th scope="col">SD</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="rowgroup">1</th>
+          <th scope="row">KEUANGAN</th>
+          <td>-</td>
+          <td>-</td>
+          <td>25</td>
+          <td>45</td>
+          <td>156</td>
+          <td>12</td>
+          <td>3</td>
+          <td>241</td>
+        </tr>
+        <tr>
+          <th scope="rowgroup">2</th>
+          <th scope="row">Umum</th>
+          <td>-</td>
+          <td>-</td>
+          <td>5</td>
+          <td>6</td>
+          <td>8</td>
+          <td>4</td>
+          <td>1</td>
+          <td>24</td>
+        </tr>
+        <tr>
+          <th scope="rowgroup">3</th>
+          <th scope="row">Penjualan</th>
+          <td>1</td>
+          <td>8</td>
+          <td>35</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>44</td>
+        </tr>
+        <tr>
+          <th scope="rowgroup">4</th>
+          <th scope="row">Litbang</th>
+          <td>1</td>
+          <td>8</td>
+          <td>35</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>44</td>
+        </tr>
+      </tbody>
+      <tfoot style="border: 2px solid black">
+        <tr>
+          <th colspan="2" scope="row">jumlah</th>
+          <td>1</td>
+          <td>8</td>
+          <td>72</td>
+          <td>51</td>
+          <td>229</td>
+          <td>53</td>
+          <td>9</td>
+          <td>423</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
